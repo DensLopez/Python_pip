@@ -18,9 +18,9 @@ git clone https://github.com/username/repo-name.git
 #Entrar a la carpeta app
 cd app
 #Crear el entorno virtual
-python3 -m venv env-app
+python3 -m venv env
 #activar el entorno
-source env-app/bin/activate
+source env/bin/activate
 #Instalar dependencias
 pip3 install -r requirements.txt
 #Ejecutar el archivo principal

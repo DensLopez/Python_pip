@@ -60,6 +60,7 @@ Este repositorio está relacionado al curso de <a href="https://platzi.com/curso
 ### Próximos pasos
 
 - ¿Cómo continuar tu carrera profesional con Python? - [code020.ipynb](codes/code020.ipynb), [code020.html](codes/html/code020.html)
-- [Examen final](codes/pdf/03.- Examen.pdf)
+- [Examen final](codes/pdf/"03.- Examen.pdf")
+
 
 <br />

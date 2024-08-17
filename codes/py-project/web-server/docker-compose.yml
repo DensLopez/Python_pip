@@ -1,7 +1,8 @@
 #Este archivo va a declar como se va a iniciar
 #Y desde donde se va a iniciar el contenedor
 services:
-  app-csv:
+#Cambiar nombre de app
+  web-server:
     build:
       context: .
       dockerfile: Dockerfile
@@ -11,3 +12,6 @@ services:
 #archivo Dockerfile para construir el contenedor
     volumes:
       - .:/app
+#Evidenciar o enlazar puertos
+    ports:
+    - '80:80'
